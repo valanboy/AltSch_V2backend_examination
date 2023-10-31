@@ -8,7 +8,7 @@ const errorHandler = require('./controller/errorHandler')
 const appError = require('./utils/errorhandler')
 
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 
 // connection
 const app = express()
